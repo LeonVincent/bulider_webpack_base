@@ -10,7 +10,7 @@ cache:
 node_js: stable
 
 install:
-  - yarn -D
+  - yarn install -D
   - cd ./test/smoke/template
   - yarn
 
